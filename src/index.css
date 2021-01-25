@@ -1,0 +1,101 @@
+body {
+    background: #eee;
+    font-family: 'Open Sans', serif;
+}
+
+#main h1 {
+    color: #444;
+    text-align: center;
+}
+
+#main h3 {
+    color: #999;
+    text-align: center;
+}
+
+#main {
+    padding: 0px;
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+}
+
+#song-list {
+    padding: 16px;
+}
+
+#song-list li {
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #3283e6;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: #3283e6;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    margin: 16px
+}
+
+form h3 {
+    color: #444 !important;
+}
+
+form .field {
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+form label {
+    text-align: right;
+    padding: 6px;
+}
+
+form input, form select {
+    margin: 4px 0;
+    padding: 6px;
+    width: 100%;
+}
+
+.primary-btn {
+    color: #fff;
+    background: #3283e6;
+    border: 0;
+    padding: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primary-btn-dark {
+    color: #fff;
+    background: #3283e6;
+    border: 3px solid #ffffff;
+    padding: 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#song-details {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background: #3283e6;
+    padding: 30px;
+    overflow: auto;
+    box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    color: #fff;
+}
