@@ -15,6 +15,7 @@ const client = new ApolloClient({
 
 class App extends Component {
     render() {
+        console.log("API URL: ", process.env.REACT_APP_API_URL)
         return (
             <ApolloProvider client={client}>
                 <div id="main">

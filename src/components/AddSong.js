@@ -16,6 +16,7 @@ class AddSong extends Component {
         if(data.loading){
             return( <option disabled>Loading artists</option> );
         } else {
+            console.log("AddSong DATA: ", data)
             return data.artists.map(artist => {
                 return( <option key={ artist.id } value={artist.id}>{ artist.name }</option> );
             });

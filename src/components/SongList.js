@@ -13,10 +13,12 @@ class SongList extends Component {
         }
     }
     displaySongs(){
-        var data = this.props.data;
+        let data = this.props.data;
+        console.log("DATA: " , data)
         if(data.loading){
             return( <div>Loading songs...</div> );
         } else {
+            console.log("SongList DATA: " , data)
             return data.songs.map(song => {
                 return(
                     <li key={ song.id } onClick={ (e) => this.setState({ selected: song.id }) }>{ song.name } : { song.kudos }</li>
