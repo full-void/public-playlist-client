@@ -10,7 +10,7 @@ import AddArtist from "./components/AddArtist";
 
 // apollo client setup
 const client = new ApolloClient({
-    uri: process.env.REACT_APP_API_URL_LOCAL
+    uri: process.env.REACT_APP_API_URL
 });
 
 class App extends Component {
